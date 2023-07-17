@@ -1,0 +1,93 @@
+body {
+    background-color: lightgray;
+    font-family: system-ui;
+    margin: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.back {
+    background-color: orange;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+
+.recipes-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media (max-width: 600px) {
+    .recipes-menu {
+      display: grid;
+    }
+}
+
+.recipes-menu li {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.recipes-menu li img {
+    border-radius: 1.75rem;
+}
+
+.recipes-menu li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+.recipe-intro {
+    display: flex;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+@media (max-width: 600px) {
+    .recipe-intro {
+        display: grid;
+    }
+}
+
+.recipe-intro img {
+    border-radius: 1.75rem;
+    justify-self: center;
+}
+
+.make-recipe {
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 600px) {
+    .make-recipe {
+        display: grid;
+    }
+}
+
+.ingredients {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.directions {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+    align-self: start;
+}
